@@ -20,18 +20,18 @@
 
 | Term             | Definition                                      | Example / Notes                          |
 |------------------|--------------------------------------------------|-------------------------------------------|
-| Widget           |                                                  |                                           |
-| MaterialApp      |                                                  |                                           |
-| Scaffold         |                                                  |                                           |
-| StatelessWidget  |                                                  |                                           |
-| StatefulWidget   |                                                  |                                           |
-| Navigator        |                                                  |                                           |
-| AppBar           |                                                  |                                           |
-| Column           |                                                  |                                           |
-| Row              |                                                  |                                           |
-| Container        |                                                  |                                           |
-| Text             |                                                  |                                           |
-| Image.network    |                                                  |                                           |
+| Widget           |   Basic building block of a Flutter app. Everything is a widget                                               |                                           |
+| MaterialApp      |   The root of the app. Sets uo routes and themes                                               |                                           |
+| Scaffold         |   Provides basic visual layout--like a header, body, floating button                                               |                                           |
+| StatelessWidget  |   A widget that doesn't change                                               |                                           |
+| StatefulWidget   |   A widget that can change over time                                               |                                           |
+| Navigator        |   Manages screen transititions                                               |                                           |
+| AppBar           |   Top navigation bar                                               |                                           |
+| Column           |   Vertical layout                                               |                                           |
+| Row              |   Horizontal layout                                               |                                           |
+| Container        |   wraps content with padding, margin, or color                                               |                                           |
+| Text             |   displays text                                               |                                           |
+| Image.network    |   Displays images from a URL                                               |                                           |
 
 | Padding    |                    |                     |
 
