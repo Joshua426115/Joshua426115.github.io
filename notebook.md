@@ -25,15 +25,15 @@
 |      | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |  |  |
 |      | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |  |  |
 | Row     | A widget that shows things side-by-side. | `Row(...)` |  |  |
-| Container     | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |  |  |
+| Container     | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |A button that users tap  |  |
 | Text     | A widget to display text on the screen. | `Text('Hello')` |Title  |  |
 | Image.network     | A widget to show an image using a link from the internet. | `Image.network('https://...')` |Displays image from URL  |  |
-|      | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |  |  |
-|      | The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |  |  |
-|      | A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |  |  |
+| ElevatdNutton     | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |  |  |
+| onPressed     | The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |What happens when you click a button  |  |
+|StatelessWidget      | A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |A widget that never changes  |  |
 |      | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |  |  |
-|      | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |  |  |
-|      | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |  |  |
+|Navigator      | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |  |  |
+|@override      | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |Replaces or updates a m  |override the code  |
 |      | Aligns content in the center of the screen or container. | `Center(child: ...)` |  |  |
 |      | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |  |  |
 |      | This marks a method as one that’s replacing a method in a parent class. | `@override` |  |  |
