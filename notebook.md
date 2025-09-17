@@ -24,10 +24,10 @@
 |      | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |  |  |
 |      | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |  |  |
 |      | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |  |  |
-|      | A widget that shows things side-by-side. | `Row(...)` |  |  |
-|      | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |  |  |
-|      | A widget to display text on the screen. | `Text('Hello')` |  |  |
-|      | A widget to show an image using a link from the internet. | `Image.network('https://...')` |  |  |
+| Row     | A widget that shows things side-by-side. | `Row(...)` |  |  |
+| Container     | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |  |  |
+| Text     | A widget to display text on the screen. | `Text('Hello')` |Title  |  |
+| Image.network     | A widget to show an image using a link from the internet. | `Image.network('https://...')` |Displays image from URL  |  |
 |      | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |  |  |
 |      | The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |  |  |
 |      | A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |  |  |
